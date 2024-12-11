@@ -3,6 +3,16 @@ variable "resource_group_name" {
   type        = string
 }
 
+variable "subscription_id" {
+  description = "Subscription Id"
+  type        = string
+}
+
+variable "resource_group_name" {
+  description = "The name of the existing Resource Group."
+  type        = string
+}
+
 variable "project_name" {
   description = "The project name for resource naming."
   type        = string

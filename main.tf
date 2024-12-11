@@ -1,9 +1,3 @@
-provider "azurerm" {
-  features {}
-  resource_provider_registrations = "none"
-  subscription_id =
-}
-
 # Use an existing Resource Group
 data "azurerm_resource_group" "rg" {
   name = var.resource_group_name
